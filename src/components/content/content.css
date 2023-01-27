@@ -1,4 +1,4 @@
-.content-cont{
+.content-cont {
     border: 1px solid white;
     width: 50%;
     height: 100vh;
@@ -14,4 +14,78 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.title {
+    background-image: url('../../../public/3.jpg');
+    height: 40%;
+    width: 90%;
+    background-size: 100%;
+    position: fixed;
+    margin-bottom: 50%;
+
+}
+
+.title a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin-top: 43%;
+}
+
+.grid-container > div {
+    text-align: end ;
+    padding: 40px;
+}
+
+.item1 {
+    background-image: url('../../../public/about.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+}
+
+.item2 {
+    background-image: url('../../../public/work.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+
+}
+
+.item3 {
+    background-image: url('../../../public/skills.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+}
+
+.item4 {
+    background-image: url('../../../public/contact.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+}
+
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover {
+    background: rgb(20 20 20 / 22%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    background-image: url('../../../public/touch.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: -2%;
 }

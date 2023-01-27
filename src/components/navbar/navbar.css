@@ -1,4 +1,4 @@
-.nav-container{
+.nav-container {
     width: 6em;
     height: 100vh;
     background: rgb(20 20 20 / 22%);
@@ -8,9 +8,9 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.redes-cont{
+.redes-cont {
     width: 99%;
-    height: 40%;
+    height: 80%;
     /* padding: 1em; */
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.redes-cont a{
+.redes-cont a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +26,7 @@
     width: 2.5em;
     height: 2.5em;
     border-radius: 50%;
-    color:white;
+    color: white;
     text-decoration: none;
     background: rgb(20 20 20 / 22%);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
@@ -35,10 +35,9 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
-.logo{
+.logo {
     width: 100%;
-    height: 4em;
+    height: 5.5em;
     display: flex;
     align-items: center;
     justify-content: center;
