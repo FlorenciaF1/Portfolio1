@@ -1,6 +1,6 @@
 .profile-container {
     border: 1px solid white;
-    width: 22%;
+    width: 21%;
     height: 100vh;
     align-self: flex-start;
 
@@ -16,23 +16,82 @@
     flex-direction: column;
 }
 
-.profile-container a {
+.profile-container div {
     width: 90%;
     height: 4em;
     margin-bottom: 1em;
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     text-decoration: none;
     color: white;
+    border-radius: 10px;
 }
 
-.profile-container a:hover {
+.profile-container div:hover {
     background: rgb(20 20 20 / 22%);
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.a {
+    text-align: center;
+    width: 100%;
+}
+
+.r1 {
+    background-image: url('../../../public/Juan.jpg');
+    background-size: contain;
+    background-position-x: center;
+    width: 30%;
+    height: 85%;
+    border-radius: 50%;
+    
+}
+
+.r2 {
+    background-image: url('../../../public/Paulina.jpg');
+    background-size: contain;
+    background-position-x: center;
+    width: 30%;
+    height: 85%;
+    border-radius: 50%;
+}
+
+.r3 {
+    background-image: url('../../../public/Walter.jpg');
+    background-size: contain;
+    background-position-x: center;
+    width: 30%;
+    height: 85%;
+    border-radius: 50%;
+}
+
+.r4 {
+    background-image: url('../../../public/Marlon.jpg');
+    background-size: contain;
+    background-position-x: center;
+    width: 30%;
+    height: 85%;
+    border-radius: 50%;
+}
+
+.r5 {
+    background-image: url('../../../public/Julio.jpg');
+    background-size: contain;
+    background-position-x: center;
+    width: 30%;
+    height: 85%;
+    border-radius: 50%;
+}
+
+.r6 {
+    background-image: url('../../../public/virtual.jpg');
+    background-size: cover;
+    background-position-x: center;
+    width: 30%;
+    height: 85%;
+    border-radius: 50%;
 }
