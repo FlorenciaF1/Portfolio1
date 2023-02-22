@@ -1,6 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import './content.css'
-
 
 const Content = () => {
   return (
@@ -9,11 +9,11 @@ const Content = () => {
         <a>Florencia Fernandez</a>
         <a>a Frontend Developer</a>
       </div>
-      <div class="grid-container">
-        <div class="item1">About</div>
-        <div class="item2">Work</div>
-        <div class="item3">Skills</div>
-        <div class="item4">Contact</div>
+      <div className="grid-container">
+        <Link to={`/about`} className="item1">About</Link>
+        <Link to={`/work`} className="item2">Work</Link>
+        <Link to={`/skills`} className="item3">Skills</Link>
+        <Link to={`/contact`} className="item4">Contact</Link>
       </div>
     </div>
   )

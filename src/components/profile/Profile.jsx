@@ -8,11 +8,11 @@ var i;
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+    var panel1 = this.nextElementSibling;
+    if (panel1.style.display === "block") {
+      panel1.style.display = "none";
     } else {
-      panel.style.display = "block";
+      panel1.style.display = "block";
     }
   });
 }
@@ -26,7 +26,7 @@ const Profile = () => {
         <button class="accordion1">Recommendations</button >
       </div>
 
-      <div className="panel">
+      <div className="panel1">
 
         <div>
           <a className="r1"></a>

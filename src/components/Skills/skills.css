@@ -1,0 +1,65 @@
+.skills-container {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+
+    background: rgb(20 20 20 / 22%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+}
+
+.tech-skills,
+.soft-skills {
+    width: 50%;
+}
+
+.tech-skills div,
+.soft-skills div {
+    height: 4em;
+    width: 55%;
+    margin: 7%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.tech-skills div:hover,
+.soft-skills div:hover {
+    background: rgb(20 20 20 / 22%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    box-shadow: 12px 12px 24px 1px rgba(0, 0, 0, 0.73);
+    -webkit-box-shadow: 12px 12px 24px 1px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 12px 12px 24px 1px rgba(0, 0, 0, 0.73);
+
+}
+
+.icon {
+    height: 60%;
+    width: 10%;
+}
+
+.button {
+    text-align: center;
+    align-items: center;
+    height: 2em;
+    width: 10%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.BiArrowBack {
+    text-align: center;
+    align-items: center;
+    color: red;
+}

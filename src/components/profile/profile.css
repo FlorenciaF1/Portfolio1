@@ -34,6 +34,10 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+
+    box-shadow: 12px 12px 24px 1px rgba(0, 0, 0, 0.73);
+    -webkit-box-shadow: 12px 12px 24px 1px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 12px 12px 24px 1px rgba(0, 0, 0, 0.73);
 }
 
 .title1 {
@@ -62,7 +66,7 @@
 
 
 .r0 {
-    background-image: url('../../../public/14.jpg');
+    background-image: url('../../../14.jpg');
     background-size: cover;
     background-position-y: center;
     width: 30%;
@@ -71,7 +75,7 @@
 }
 
 .r1 {
-    background-image: url('../../../public/Juan.jpg');
+    background-image: url('../../../Juan.jpg');
     background-size: cover;
     background-position-x: center;
     width: 30%;
@@ -81,7 +85,7 @@
 }
 
 .r2 {
-    background-image: url('../../../public/Paulina.jpg');
+    background-image: url('../../../Paulina.jpg');
     background-size: cover;
     background-position-x: center;
     width: 30%;
@@ -90,7 +94,7 @@
 }
 
 .r3 {
-    background-image: url('../../../public/Walter.jpg');
+    background-image: url('../../../Walter.jpg');
     background-size: cover;
     background-position-x: center;
     width: 30%;
@@ -100,7 +104,7 @@
 }
 
 .r4 {
-    background-image: url('../../../public/Marlon.jpg');
+    background-image: url('../../../Marlon.jpg');
     background-size: cover;
     background-position-x: center;
     width: 30%;
@@ -110,7 +114,7 @@
 }
 
 .r5 {
-    background-image: url('../../../public/Julio.jpg');
+    background-image: url('../../../Julio.jpg');
     background-size: cover;
     background-position-x: center;
     width: 30%;
@@ -120,7 +124,7 @@
 }
 
 .r6 {
-    background-image: url('../../../public/virtual.jpg');
+    background-image: url('../../../virtual.jpg');
     background-size: cover;
     background-position-x: center;
     width: 30%;
@@ -143,6 +147,6 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-.panel {
+.panel1 {
     width: 90%;
 }

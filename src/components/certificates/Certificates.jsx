@@ -6,7 +6,11 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
     this.classList.toggle("active");
+    
+    /* Toggle between hiding and showing the active panel */
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
@@ -14,13 +18,13 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = "block";
     }
   });
-}
+} 
 
 const Explore = () => {
   return (
     <div className='certificates-container'>
-          <button  class="accordion">Certificates</button >
-          <div class="panel">
+          <button  className="accordion">Certificates</button >
+          <div className="panel">
             <a href='https://certificates.soyhenry.com/cert?id=b8170bdc-7e5d-485a-b3cd-6e2cd43e1ab7' target='_blank'>Full Stack Web Developer</a>
             <a href='https://www.efset.org/cert/qmNebq' target='_blank'>B2 Upper Intermediate</a>
             <a href='https://www.credly.com/badges/85c9081f-979b-49d7-9dce-28ce7cdb20d8/public_url' target='_blank'>Scrum Foundation Professional Certificate</a>
@@ -33,12 +37,3 @@ const Explore = () => {
 }
 
 export default Explore
-
-
-{/* <div class="tabs">
-      <div class="tab">
-        <input type="checkbox" id="chck1">
-        <label class="tab-label" for="chck1">Item 1</label>
-        <div class="tab-content">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
-        </div> */}
